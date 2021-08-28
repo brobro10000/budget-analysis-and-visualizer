@@ -47,5 +47,5 @@
     "background_color": "#f5f5dc",
     "start_url": "/",
     "display": "standalone",
-    "prefer_related_applications": true
+    "prefer_related_applications": false
 }
