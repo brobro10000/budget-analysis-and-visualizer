@@ -44,20 +44,22 @@ The application will now appear as an application on your desktop. By default, t
 ---
 ### **Mobile - IOS**
 ---
-
-![Installation4](src/images/IMG_6814.PNG)
+<img src="src/images/IMG_6814.PNG" width="100" height="300">
 
 Navigate to [https://baav.herokuapp.com/](https://baav.herokuapp.com/) in your Safari browser. Since the application meets the critieria as a progressive web application, simply select the 'Share Button' button which is located at the very bottom center of your browser.
 
-![Installation4](src/images/IMG_6815.PNG)
+<img src="src/images/IMG_6815.PNG" width="100" height="300">
+
 
 Once you select the share button, scroll down to the portion of the menu that displays selectable actions, select, 'Add to Home Screen', and confirm the next dialogue box.
 
-![Installation5](src/images/IMG_6816.PNG)
+<img src="src/images/IMG_6816.PNG" width="100" height="300">
+
 
 The application should appear as your last installed app on IOS. Selecting it will display a clean interface, which persist from the main website itself. 
 
-![Installation6](src/images/IMG_6817.PNG)
+<img src="src/images/IMG_6817.PNG" width="100" height="300">
+
 
 You now have access to the same information as if directly acessing it from the website. 
 
