@@ -106,7 +106,7 @@ function sendTransaction(isAdding) {
 
   // add to beginning of current array of data
   transactions.unshift(transaction);
-
+  console.log(transactions)
   // re-run logic to populate ui with new record
   populateChart();
   populateTable();
@@ -122,6 +122,7 @@ function sendTransaction(isAdding) {
     }
   })
   .then(response => {    
+    console.log(response)
     return response.json();
   })
   .then(data => {
@@ -136,6 +137,9 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
+    // delete transactions[0]
+    // transactions = transactions.filter(()=>true)
+    
     saveRecord(transaction);
 
     // clear form
