@@ -137,9 +137,6 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
-    // delete transactions[0]
-    // transactions = transactions.filter(()=>true)
-    
     saveRecord(transaction);
 
     // clear form

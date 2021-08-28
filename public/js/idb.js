@@ -46,10 +46,12 @@ function uploadTransaction() {
                 .then(() => {
                     const transaction = db.transaction(['transaction'], 'readwrite');
                     const transactionObjectStore = transaction.objectStore('transaction');
-
-                    transactionObjectStore.clear();
-
-                    alert('All indexed transactions has been submitted!');
+                    console.log(transactionObjectStore)
+                    var success = transactionObjectStore.clear();
+                    success.onsuccess = function(event){
+                        alert('All indexed transactions has been submitted!');
+                    }
+                    console.log(transactionObjectStore)
                     window.location.reload()
                 })
                 .catch(err => {
@@ -59,4 +61,4 @@ function uploadTransaction() {
     };
 }
 
-// window.addEventListener('online', uploadTransaction);
+window.addEventListener('online', uploadTransaction);
