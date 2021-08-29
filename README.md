@@ -15,7 +15,7 @@
   ## **Table of Contents**
   * [Installation](#installation)
     * [Desktop](#desktop)
-    * [IOS](#mobile-ios)
+    * [IOS](#ios)
   * [Usage](#usage)
     * [Disclaimer](#disclaimer)
   * [Credits](#credits)
@@ -42,7 +42,7 @@ Confirm the Installation
 The application will now appear as an application on your desktop. By default, the application should install on your desktop. 
 
 ---
-### **Mobile - IOS**
+### **IOS**
 ---
 <img src="src/images/IMG_6814.PNG" width="300" height="634">
 
